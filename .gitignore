@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Environment variables (secrets)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.vscode/
+
+# Project output
+processed/
+errors.log
+data_log.csv
+
+# Google credentials
+credentials.json
