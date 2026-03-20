@@ -121,6 +121,7 @@ SmartReceipt-AI-Extractor/
 ├── requirements.txt   # Python dependencies
 ├── .env.example       # Template for environment variables
 ├── .gitignore         # Files excluded from Git
+├── .pyre_configuration # Configuration for Pyre static type checker
 ├── input/             # Drop receipts here (monitored by the script)
 └── processed/         # Successfully processed files are moved here
 ```
