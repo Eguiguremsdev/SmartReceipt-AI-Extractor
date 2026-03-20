@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv  # pyre-ignore[21]
 
 # Load environment variables from .env file
 load_dotenv()
