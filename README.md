@@ -101,6 +101,14 @@ If you want to automatically push extracted data to Google Sheets:
    - Processed files are automatically moved to the `processed/` folder to prevent duplicates.
    - If a file failed, check `errors.log` for details.
 
+## 📝 VS Code Setup & Troubleshooting
+
+If you are using Visual Studio Code and see errors like `missing-module-attribute` (e.g., from Pyre or Pylance), the editor might be struggling to find your virtual environment.
+
+**How to fix:**
+1. **Open the project folder directly**: Go to **File -> Open Folder** and select the `SmartReceipt-AI-Extractor` folder directly, rather than opening a parent folder that contains it.
+2. **Select the correct interpreter**: Press `Ctrl+Shift+P`, type `Python: Select Interpreter`, and choose the one inside `.venv/Scripts/python.exe` (Windows) or `.venv/bin/python` (Mac/Linux).
+
 ## 📁 Project Structure
 
 ```
